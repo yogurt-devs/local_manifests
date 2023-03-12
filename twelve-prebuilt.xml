@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="yogurt-devs"
+           fetch="https://github.com/yogurt-devs"
+           revision="twelve"/>
+
+ <!-- Device Tree -->
+  <project path="device/micromax/yogurtx" name="android_device_micromax_yogurt" remote="yogurt-devs" revision="twelve-prebuilt"/>
+ 
+ <!-- Kernel -->
+  <project path="kernel/micromax/yogurt" name="android_kernel_micromax_yogurt" remote="yogurt-devs" revision="android-10.0"/>
+
+ <!-- Vendor Tree -->
+  <project path="vendor/micromax/yogurt" name="android_vendor_micromax_yogurt" remote="yogurt-devs" revision="twelve-prebuilt"/>
+
+</manifest>
