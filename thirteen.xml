@@ -3,7 +3,7 @@
 
   <remote  name="yogurt-devs"
            fetch="https://github.com/yogurt-devs"
-           revision="thirteen"/>
+           revision="lineage-20.0"/>
 
  <!-- Device Tree -->
   <project path="device/micromax/yogurtx" name="android_device_micromax_yogurt" remote="yogurt-devs"/>
