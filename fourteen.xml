@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="yogurt-devs"
+           fetch="https://github.com/yogurt-devs"
+           revision="fourteen"/>
+
+ <!-- Device Tree -->
+  <project path="device/micromax/yogurt" name="android_device_micromax_yogurt" remote="yogurt-devs"/>
+ 
+ <!-- Kernel -->
+  <project path="kernel/micromax/yogurt" name="SakthivelNadar/yogurt" remote="github" revision="android-14.0"/>
+
+ <!-- Vendor Tree -->
+  <project path="vendor/micromax/yogurt" name="android_vendor_micromax_yogurt" remote="yogurt-devs"/>
+
+  <!-- Extras -->
+  <project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-14.0"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="sarthakroy2002/clang-r353983c1" remote="github" revision="master"/>
+
+</manifest>
